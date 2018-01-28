@@ -1,3 +1,4 @@
+ENV['RACK_ENV'] != 'production'
 require 'sinatra/base'
 
 class Chitter < Sinatra::Base
